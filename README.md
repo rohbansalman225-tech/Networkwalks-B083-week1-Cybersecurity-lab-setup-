@@ -14,11 +14,13 @@ NAT Network
 Virtual Machine Snapshots
 
 🎯 Tasks Completed
+
 1. Install Required Software
 Downloaded and installed 7-Zip
 Downloaded and installed Oracle VirtualBox
 Downloaded the Kali Linux Virtual Machine
-2. Configure NAT Network
+
+3. Configure NAT Network
 
 A custom NAT Network was created in VirtualBox with the following configuration:
 
@@ -40,6 +42,7 @@ Attached To: NAT Network
 Network Name: NATNetwork
 IP Address: 10.0.0.2/24
 Internet Access: Enabled
+
 5. Enable Clipboard and Drag & Drop
 
 The following VirtualBox features were enabled to improve interaction between the host machine and Kali Linux:
@@ -61,6 +64,7 @@ After completing the configuration, a snapshot of the Kali Linux virtual machine
 This snapshot can be used to restore the lab environment if any configuration issues occur during future cybersecurity practice.
 
 🌐 Network Configuration
+
 Device	Network	IP Address
 Kali Linux	NATNetwork	10.0.0.2/24
 
@@ -100,6 +104,7 @@ Linux
 Network Security
 Penetration Testing
 Virtualization
+
 👨‍💻 Author
 
 Rohban Salman
